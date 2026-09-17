@@ -10,6 +10,12 @@
     
     <version>1.0-SNAPSHOT</version>
     <name>jhttp</name>
+    <scm>
+        <connection>scm:git:https://github.com/hemanthmantri/jhttp.git</connection>
+        <developerConnection>scm:git:https://github.com/hemanthmantri/jhttp.git</developerConnection>
+        <url>https://github.com/hemanthmantri/jhttp</url>
+        <tag>HEAD</tag>
+    </scm>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -72,8 +78,8 @@
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
-            <artifactId>mockito-all</artifactId>
-            <version>1.10.19</version>
+            <artifactId>mockito-core</artifactId>
+            <version>5.14.2</version>
             <scope>test</scope>
         </dependency>
 
